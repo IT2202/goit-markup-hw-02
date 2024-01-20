@@ -198,9 +198,7 @@ font-style: normal;
 }
 
 .container-image {
-    width: 360px;
-        height: 300px;
-        flex-shrink: 0;
+    
 }
 
 .container-subtitle {

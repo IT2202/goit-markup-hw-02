@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -28,10 +28,7 @@ a:focus {
         text-transform: uppercase;
 }
 
-.header-logo:hover,
-.header-logo:focus {
-    color: #404BBF;
-}
+
 
 .header-logo-studio {
     color: #2e2f42;
@@ -53,8 +50,12 @@ color: #2E2F42;
     letter-spacing: 0.02em;
 }
 
-.header-address-list {
+.header-address {
 font-style: normal;
+}
+
+.header-address-list {
+
 }
 
 .header-address-item {
@@ -108,12 +109,6 @@ font-style: normal;
 .feature {}
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -158,12 +153,11 @@ font-style: normal;
 }
 
 .team-item {
-
+    background-color: #FFFFFF;
 }
 
 .team-image {
-    width: 264px;
-    height: 260px;
+ 
 }
 
 .team-subtitle {

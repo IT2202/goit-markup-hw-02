@@ -12,10 +12,7 @@ a {
     text-decoration: none;
 }
 
-a:hover,
-a:focus {
-    color: #404BBF;
-}
+
                                                   /* HEDER */
 
 .header-logo {
@@ -28,7 +25,10 @@ a:focus {
         text-transform: uppercase;
 }
 
-
+.header-logo:hover,
+.header-logo:focus {
+    color: #404BBF;
+}
 
 .header-logo-studio {
     color: #2e2f42;
@@ -48,6 +48,11 @@ color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404BBF;
 }
 
 .header-address {
@@ -230,6 +235,11 @@ color: #4d5ae5;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+    color: #404BBF;
 }
 
 .footer-logo-studio {
